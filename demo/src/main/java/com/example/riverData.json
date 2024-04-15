@@ -1,0 +1,350 @@
+{
+  "tests": [
+    {
+      "input": {
+        "river": "Gauguin",
+        "water": ["m", "r", "p", "t", "i", "z", "l", "o"],
+        "elements": ["m", "p"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Winslow Homer",
+        "water": ["f", "l", "i", "a", "n", "u", "j", "l", "v", "o"],
+        "elements": ["l", "i", "l", "o"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Warhol",
+        "water": [
+          "e",
+          "m",
+          "s",
+          "g",
+          "l",
+          "u",
+          "a",
+          "z",
+          "c",
+          "d",
+          "a",
+          "c",
+          "g",
+          "c",
+          "t",
+          "z",
+          "q",
+          "c",
+          "i",
+          "v"
+        ],
+        "elements": [
+          "a",
+          "c",
+          "d",
+          "g",
+          "i",
+          "m",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u",
+          "v",
+          "z"
+        ]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Pissarro",
+        "water": ["f", "j", "y", "b", "c"],
+        "elements": ["c"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Degas",
+        "water": [
+          "c",
+          "t",
+          "a",
+          "p",
+          "j",
+          "q",
+          "u",
+          "a",
+          "j",
+          "o",
+          "f",
+          "a",
+          "p",
+          "l",
+          "s",
+          "f",
+          "x"
+        ],
+        "elements": ["j", "f", "u", "s", "l", "t"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Degas",
+        "water": ["e", "v", "j", "x", "i", "g", "k", "h", "y", "q"],
+        "elements": ["q", "x"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Manet",
+        "water": [
+          "k",
+          "l",
+          "o",
+          "q",
+          "o",
+          "g",
+          "f",
+          "q",
+          "n",
+          "q",
+          "h",
+          "q",
+          "t",
+          "c",
+          "y",
+          "i",
+          "g"
+        ],
+        "elements": ["b", "c", "u", "j", "k", "l", "o"]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Monet",
+        "water": ["v", "o", "b", "w", "c", "j", "x", "n", "g", "h"],
+        "elements": ["b", "e", "g", "h", "x", "n"]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Winslow Homer",
+        "water": ["z", "p", "w", "s", "x", "b", "u"],
+        "elements": ["w", "u", "p"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Rubens",
+        "water": ["u", "b", "o", "b", "a", "d", "d", "x", "s"],
+        "elements": ["a", "b", "d", "u", "h", "o"]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Vincent",
+        "water": ["a", "l", "j", "w", "t", "b", "s", "s", "k", "j", "b"],
+        "elements": ["j"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Rembrandt",
+        "water": [
+          "t",
+          "o",
+          "a",
+          "v",
+          "x",
+          "w",
+          "t",
+          "n",
+          "p",
+          "b",
+          "c",
+          "m",
+          "w",
+          "f",
+          "a",
+          "l",
+          "a",
+          "k",
+          "j"
+        ],
+        "elements": ["s", "h", "i"]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Rembrandt",
+        "water": [
+          "e",
+          "a",
+          "v",
+          "a",
+          "w",
+          "z",
+          "c",
+          "e",
+          "b",
+          "z",
+          "u",
+          "q",
+          "x",
+          "m",
+          "t",
+          "f"
+        ],
+        "elements": [
+          "a",
+          "b",
+          "e",
+          "f",
+          "j",
+          "l",
+          "m",
+          "o",
+          "q",
+          "t",
+          "u",
+          "v",
+          "w",
+          "z"
+        ]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Joan Miro",
+        "water": [
+          "h",
+          "g",
+          "a",
+          "n",
+          "l",
+          "l",
+          "g",
+          "s",
+          "e",
+          "v",
+          "f",
+          "q",
+          "u",
+          "r"
+        ],
+        "elements": ["q", "a", "b", "r", "u", "v", "f", "g", "l"]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Manet",
+        "water": [
+          "l",
+          "v",
+          "b",
+          "r",
+          "y",
+          "f",
+          "v",
+          "w",
+          "r",
+          "i",
+          "k",
+          "v",
+          "h"
+        ],
+        "elements": ["h", "r", "f", "v", "v", "y"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Michelangelo",
+        "water": ["k", "d", "n", "j", "x", "y", "b", "f", "t"],
+        "elements": ["c", "d", "t", "e", "f", "x", "j", "k"]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Pissarro",
+        "water": ["u", "j", "l", "w", "a"],
+        "elements": ["p", "a", "u", "i"]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Rothko",
+        "water": [
+          "e",
+          "m",
+          "c",
+          "p",
+          "i",
+          "a",
+          "h",
+          "i",
+          "g",
+          "c",
+          "o",
+          "s",
+          "a",
+          "f",
+          "d",
+          "c"
+        ],
+        "elements": ["c", "p", "f", "e", "s", "i", "h", "d", "c", "o", "a"]
+      },
+      "output": { "hasGold": true }
+    },
+    {
+      "input": {
+        "river": "Kandinsky",
+        "water": ["t", "g", "m", "a", "o", "i", "q", "o", "c", "i"],
+        "elements": ["q", "d", "o"]
+      },
+      "output": { "hasGold": false }
+    },
+    {
+      "input": {
+        "river": "Warhol",
+        "water": [
+          "h",
+          "m",
+          "u",
+          "q",
+          "g",
+          "p",
+          "z",
+          "e",
+          "n",
+          "o",
+          "e",
+          "o",
+          "s",
+          "f",
+          "b",
+          "t"
+        ],
+        "elements": ["c", "s", "u", "z", "o"]
+      },
+      "output": { "hasGold": false }
+    }
+  ]
+}
