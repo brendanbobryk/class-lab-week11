@@ -5,12 +5,6 @@ import java.util.*;
 
 public class App {
 
-    /*
-     * STUDENTS NEED TO CHANGE THE PATH TO POINT TO THE DATA FILE ON THEIR LAPTOPS
-     */
-    // private static String dataFilePath =
-    // "/Users/jerom/Documents/GitHub/class-java/stack-lab/demo/src/main/java/com/example/socksTestData.json";
-
     private static String dataFilePath = "C:/Users/Brendan/Documents/GitHub/class-lab-week11/demo/src/main/java/com/example/riverData.json";
 
     public static TestOutput process(TestInput input) {
@@ -20,18 +14,27 @@ public class App {
 
         TestOutput answer = new TestOutput();
 
-        /*
-         * STUDENTS NEED TO ADD/EDIT CODE STARTING HERE
-         */
+        HashMap<Character, Integer> waterElementsCount = new HashMap<>();
 
-        answer.hasGold = false;
+        // count occurrences of elements in the water
+        for (char element : water) {
+            waterElementsCount.put(element, waterElementsCount.getOrDefault(element, 0) + 1);
+        }
 
-        /*
-         * STUDENTS DO NOT NEED TO EDIT ANY CODE AFTER THIS
-         */
+        // check if all elements are in the water
+        for (char element : elements) {
+            if (!waterElementsCount.containsKey(element) || waterElementsCount.get(element) == 0) {
+                // return answer if the river does not have gold
+                answer.hasGold = false;
+                return answer;
+            }
+            waterElementsCount.put(element, waterElementsCount.get(element) - 1);
+        }
 
-        // return the answer
+        // return the answer if the river has gold
+        answer.hasGold = true;
         return answer;
+
     }
 
     public static void main(String[] args) {
